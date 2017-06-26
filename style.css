@@ -1,0 +1,105 @@
+body {
+  background: #EC6868;  
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.results li {
+  border: 1px solid white;
+  width: 75%;
+  margin: 15px auto;
+}
+
+.title {
+  display:inline-block;
+  font-weight: 400;
+  padding:0 10px 3px;
+  border-bottom: 1px solid white;
+}
+
+.results p {
+  font-weight: 100;
+  font-size: small;
+  padding: 5px;
+}
+
+
+input#search {
+      text-align: center;
+    height: 35px;
+      font-size: small;
+    color: #CE4040;
+    width: 50%;
+      min-width: 200px;
+      border: 0px;
+    border-radius: 15px 0 0 15px;
+}
+
+button {
+    background: #EC6868;
+    color: white;
+    min-width: 79px;
+    height: 37.25px;
+    font-weight: 200;
+    font-size: initial;
+    border: 1px solid white;
+    border-radius: 0px 15px 15px 0;
+}
+
+input, button:focus {
+   outline: none;
+}
+
+button:hover {
+    color: #FD9999;
+    background: white;
+    border: 1px solid #FD9999;
+}
+
+.results li:hover a, .results li:hover, .results li:hover .title  {
+  color: #FD9999;
+  background: white;
+  border-color: #FD9999;
+}
+
+button:active {
+   color: #EC6868;
+}
+
+
+.search-box {
+      background: #EC6868;
+    margin-top: 50px;
+}
+
+.ui-menu, .ui-autocomplete {
+  max-width: 75%;
+  padding:0;
+  margin: auto;
+}
+
+.ui-menu-item {
+    list-style: none;
+    padding-top: 14px;
+    padding-left 7px;
+    color: white;
+}
+
+.ui-state-focus {
+  border-left: 1px dashed white;
+}
+
+.ui-helper-hidden-accessible div {
+    display: none;
+}
+
